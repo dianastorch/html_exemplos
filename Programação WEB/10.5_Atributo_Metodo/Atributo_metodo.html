@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+<head>
+<title>Atributo Método</title>
+<meta charset= "UTF-8">
+</head>
+<body>
+<h2>O método Atributo</h2>
+<p>Este formulário será enviado usando o método GET:</p>
+
+<form action="/action_page.htl" target="_blank" method="GET">
+  Primeiro nome:<br>
+  <input type="text" name="Primeiro nome" value="Taylor">
+  <br>
+  Último nome:<br>
+  <input type="text" name="Último nome" value="Swift">
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Depois de enviar, observe que os valores do formulário estão visíveis na barra de endereço da nova guia do navegador.</p>
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+<p>Este formulário será enviado usando o método POST:</p>
+
+<form action="/action_page.php" target="_blank" method="POST">
+  Primeiro nome:<br>
+  <input type="text" name="Primeiro nome" value="Taylor">
+  <br>
+  Último nome:<br>
+  <input type="text" name="Último nome:" value="Swift">
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Depois de enviar, observe que, diferentemente do método GET, os valores do formulário NÃO estão visíveis na barra de endereço da nova guia do navegador.</p>
+
+
+</body>
+</html>
