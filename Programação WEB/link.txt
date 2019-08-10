@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+
+<head>
+	<title>Meus links</title>
+
+	<meta charset="utf-8">
+</head>
+<body>
+	<!-- o a significa referência - id="top" significa voltar ao topo -->
+	<p id="top"> <a href="https://www.google.com">Clique aqui para acessar o google.com</a></p> <!-- Link absoluto -->
+	
+	<p> <a href="https://pt.wikipedia.org"><img src="homer.png"</a></p>
+	
+	<p> <a href="https://pt.wikipedia.org"><img src="homer.png"</a></p>
+	
+	<p id="thirdhomer"> <a href="https://pt.wikipedia.org"><img src="homer.png"</a></p>
+	
+	<p> <a href="https://pt.wikipedia.org"><img src="homer.png"</a></p>
+	
+	<p> <a href="https://pt.wikipedia.org"><img src="homer.png"</a></p>
+	
+	<p> <a href="https://pt.wikipedia.org"><img src="homer.png"</a></p>
+	
+	<p> <a href="https://pt.wikipedia.org"><img src="homer.png"</a></p>
+	
+	<p> <a href="https://pt.wikipedia.org"><img src="homer.png"</a></p>
+	
+	<p> <a href="esrtutura_basica.html">Link Relativo</a></p>
+	<!-- Link relativo ele não está na internet ele está no seu computador -->
+	
+	<p> <a href="#top">Voltar ao topo</a></p>
+	
+	<p> <a href="#thirdhomer">Voltar ao terceiro homer</a></p>
+	
+</body>
+</html>
